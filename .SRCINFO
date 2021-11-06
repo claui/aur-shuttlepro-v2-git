@@ -6,6 +6,7 @@ pkgbase = shuttlepro-v2-git
 	arch = x86_64
 	arch = i686
 	license = GPL
+	makedepends = git
 	depends = libxtst
 	depends = jack
 	provides = shuttlepro
@@ -16,4 +17,3 @@ pkgbase = shuttlepro-v2-git
 	md5sums = SKIP
 
 pkgname = shuttlepro-v2-git
-

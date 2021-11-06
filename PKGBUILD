@@ -9,6 +9,7 @@ arch=('x86_64' 'i686')
 url="https://github.com/SERVCUBED/ShuttlePRO"
 license=('GPL')
 depends=('libxtst' 'jack')
+makedepends=('git')
 provides=('shuttlepro')
 conflicts=('shuttlepro' 'shuttlepro-git' 'contour-shuttle-git')
 source=("$pkgname::git+https://github.com/SERVCUBED/ShuttlePRO.git")
